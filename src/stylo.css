@@ -1,0 +1,61 @@
+.header {
+    background-color: #FF6600;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    align-content: center;
+}
+
+.header-container {
+    display: flex;
+    align-items: center;
+}
+
+.logo {
+    height: 40px; /* Ajusta según sea necesario */
+}
+
+.search-bar {
+    margin: 0 20px;
+    padding: 5px 10px;
+    border: none;
+    border-radius: 5px;
+    flex-grow: 1;
+}
+
+.login-button,
+.favorite-button,
+.cart-button {
+    background-color: #FF00FF;
+    color: #FFFFFF;
+    border: none;
+    border-radius: 5px;
+    padding: 5px 10px;
+    margin-left: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    max-height: 20px;
+}
+
+.logo img{
+    filter: invert(100%) sepia(0%) saturate(0%) hue-rotate(0deg) brightness(100%) contrast(100%);
+}
+
+.icon,
+.iconFav,
+.iconCarro{
+    filter: invert(100%);
+    max-width: 15px;
+}
+
+.cart-notification {
+    background-color: red;
+    color: white;
+    border-radius: 50%;
+    padding: 2px 5px;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
